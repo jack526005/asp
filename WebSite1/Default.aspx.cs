@@ -35,7 +35,7 @@ public partial class _Default : System.Web.UI.Page
                 {
                     // 登录成功
                     Response.Write("登录成功");
-                   // Response.Redirect("index.aspx");//跳转界面
+                    Response.Redirect("index.aspx");//跳转界面
 
                 }
                 else

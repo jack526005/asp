@@ -47,6 +47,7 @@ public partial class register : System.Web.UI.Page
                     {
                         // 插入成功
                         Response.Write("注册成功！");
+                        Response.Redirect("Default.aspx");
                     }
                     else
                     {

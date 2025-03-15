@@ -69,32 +69,46 @@
 
 <body>
   <div class="header">
-    <h1>科技前沿资讯网</h1>
-    <p>聚焦全球最新科技动态</p>
+    <h1>学习日志</h1>
+    <p>记录学习中的问题</p>
   </div>
   <div class="nav">
     <a href="#">首页</a>
-    <a href="#">人工智能</a>
-    <a href="#">区块链</a>
-    <a href="#">生物科技</a>
-    <a href="#">联系我们</a>
+    <a href="#">*</a>
+    <a href="#">*</a>
+    <a href="#">*</a>
+    <a href="#">*</a>
   </div>
   <div class="main-content">
     <div class="article">
-      <h2>突破！新型量子计算机性能大幅提升</h2>
-      <p>近日，某科研团队成功研发出一款新型量子计算机，其计算速度相比前代产品有了质的飞跃...</p>
+      <h2>Asp.net初次引用mysql</h2>
+      <p>打开 Visual Studio，在 “解决方案资源管理器” 中右键单击你的项目，选择 “管理 NuGet 程序包”。
+在 “NuGet 包管理器” 窗口中，切换到 “浏览” 选项卡，在搜索框中输入 “MySql.Data”。
+选择 “MySQL.Data” 包，然后点击 “安装” 按钮，按照提示完成安装。
+在web.config中添加
+<configuration>
+  <connectionStrings>
+    <add name="MySqlCionnectionString" connectionString="Server=your_server;Database=your_database;Uid=your_username;Pwd=your_password;" providerName="MySql.Data.MySqlClient" />
+  </connectionStrings>
+  <!-- 其他配置 -->
+</configuration>
+</p>
     </div>
     <div class="article">
-      <h2>AI在医疗影像诊断中的应用取得新进展</h2>
-      <p>研究表明，人工智能技术在医疗影像诊断方面准确率显著提高，有望改变传统医疗诊断模式...</p>
+      <h2>手动创建vue3项目</h2>
+      <p>Npm ccreate vite@latest</p>
     </div>
     <div class="article">
-      <h2>区块链助力供应链管理更加透明高效</h2>
-      <p>越来越多的企业开始采用区块链技术优化供应链管理，提升货物追踪和信息共享效率...</p>
+      <h2>github/gitee基础命令</h2>
+      <p>git clone  [仓库url] 
+git add .  /  git add -A
+git commit -m “message”
+git push origin [分支名] master/main
+.</p>
     </div>
   </div>
   <div class="footer">
-    &copy; 2025 科技前沿资讯网. 版权所有.
+    &copy; 2025 学习日志.
   </div>
 </body>
 </html>
